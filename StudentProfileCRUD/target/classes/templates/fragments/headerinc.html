@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head lang="en" th:fragment="head">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<style>
+	table {
+	  font-family: courier;
+	  border-collapse: collapse;
+	  width: 60%;
+	  background-color: #0BOC1O;
+	}
+	
+	td, th {
+	  /* border: 1px solid #dddddd; */
+	  text-align: center;
+	  padding: 8px;
+	  color:#1F2833 ;
+	}
+	
+	tr:nth-child(even) {
+	  background-color: #66FCF1;
+    }
+    ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  /* background-color: #333; */
+	}
+	
+	li {
+	  float: left;
+	}
+	
+	li a {
+	  display: block;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+	
+	li a:hover {
+	  background-color: #66FCF1;
+	}
+	input[type=text] {
+	  width: 100px;
+	  box-sizing: border-box;
+	  border: 2px solid #ccc;
+	  border-radius: 4px;
+	  font-size: 16px;
+	  background-color: white;
+	  /* background-image: url('searchicon.png'); */
+	  background-position: 10px 10px; 
+	  background-repeat: no-repeat;
+	  padding: 12px 20px 12px 40px;
+	  -webkit-transition: width 0.4s ease-in-out;
+	  transition: width 0.4s ease-in-out;
+	}
+	
+	input[type=text]:focus {
+	  width: 100%;
+	}
+	* {
+  box-sizing: border-box;
+}
+
+input[type=text],input[type=date],[type=number], select, textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #66FCF1;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  right: 70%;
+}
+
+input[type=submit]:hover {
+  background-color: #45A29E;
+}
+
+.container {
+  border-radius: 5px;
+  /* background-color: #00ccff; */ 
+  padding: 10px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 35%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<body>
+
+</body>
+
+</html>

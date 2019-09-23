@@ -1,0 +1,7 @@
+com\studentapp\entities\Student.class
+com\studentapp\SpringBootWebApplication.class
+com\studentapp\services\StudentServiceImpl.class
+com\studentapp\controllers\StudentController.class
+com\studentapp\services\StudentService.class
+com\studentapp\repositories\StudentRepository.class
+com\studentapp\controllers\IndexController.class
